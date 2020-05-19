@@ -1,9 +1,9 @@
 ## voro-for-matlab
-using mex to apply voro++ in matlab
-使用mex在matlab中调用voro++
- voro++:http://math.lbl.gov/voro++/
- mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html
+using mex to apply voro++ in matlab\n
+使用mex在matlab中调用voro++\n
+ voro++:http://math.lbl.gov/voro++/ \n
+ mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html \n
 
-try... in matlab:\n
-mex voro_cmd.cpp src/voro++.cc%编译\n
-voro_cmd('voro++','-r','-o','-c','%i %q %r;%t;%P;%n;%l','0','100','0','100','0','100','input2.txt');%voro++的cmd命令\n
+try... in matlab: \n
+mex voro_cmd.cpp src/voro++.cc%编译 \n
+voro_cmd('voro++','-r','-o','-c','%i %q %r;%t;%P;%n;%l','0','100','0','100','0','100','input2.txt');%voro++的cmd命令 \n
