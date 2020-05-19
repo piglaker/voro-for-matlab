@@ -14,8 +14,8 @@ for MATLAB
 # 使用
 
   ```matlab
-  mex voro_cmd.cpp src/voro++.cc <br>
-  voro_cmd(voro++,[opts],<x_min>,<x_max>,<y_min>,<y_max>,<z_min>,<z_max>,<filename>); <br>
+  mex voro_cmd.cpp src/voro++.cc
+  voro_cmd(voro++,[opts],<x_min>,<x_max>,<y_min>,<y_max>,<z_min>,<z_max>,<filename>);
   ```
 try the demo in matlab:<br>
   ```matlab
