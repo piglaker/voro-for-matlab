@@ -18,14 +18,10 @@ necessary：<br>
   ```
 try the demo in matlab:<br>
   ```matlab
-  mex voro_cmd.cpp src/voro++.cc %编译 <br>
-  voro_cmd('voro++','-r','-o','-c','%i %q %r;%t;%P;%n;%l','0','100','0','100','0','100','input2.txt');%voro++的cmd命令 <br>
+  mex voro_cmd.cpp src/voro++.cc %编译
+  voro_cmd('voro++','-r','-o','-c','%i %q %r;%t;%P;%n;%l','0','100','0','100','0','100','input2.txt');%voro++的cmd命令
   ```
  
 Voro++ command-line utility reference: http://math.lbl.gov/voro++/doc/cmd.html <br>
 Voro++ customized output reference : http://math.lbl.gov/voro++/doc/custom.html <br>
-
-# 说明
-pass
-
 
