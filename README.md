@@ -1,13 +1,13 @@
-## voro-for-matlab
+## Voro-for-MATLAB
 using mex to apply voro++ in matlab<br>
 使用mex在matlab中调用voro++<br>
  voro++:http://math.lbl.gov/voro++/ <br>
  mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html <br>
 
 # 安装
-necessary：<br>
+**Necessary：<br>
  MinGW-4.9.2 <br>
- TDM-GCC <br>
+ TDM-GCC** <br>
 
 
 # 使用
