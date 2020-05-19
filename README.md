@@ -1,8 +1,8 @@
 ## voro-for-matlab
-using mex to apply voro++ in matlab\n
-使用mex在matlab中调用voro++\n
- voro++:http://math.lbl.gov/voro++/ \t
- mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html \n
+using mex to apply voro++ in matlab<br>
+使用mex在matlab中调用voro++<br>
+ voro++:http://math.lbl.gov/voro++/ <br>
+ mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html <br>
 
 try... in matlab:
 mex voro_cmd.cpp src/voro++.cc \n
