@@ -4,13 +4,13 @@ using mex to apply voro++ in matlab<br>
  voro++:http://math.lbl.gov/voro++/ <br>
  mex:https://ww2.mathworks.cn/help/matlab/ref/mex.html <br>
 
-#安装
+# 安装
 necessary：<br>
  MinGW-4.9.2 <br>
  TDM-GCC <br>
 
 
-#使用
+# 使用
 mex voro_cmd.cpp src/voro++.cc <br>
 voro_cmd(voro++,[opts],<x_min>,<x_max>,<y_min>,<y_max>,<z_min>,<z_max>,<filename>); <br>
 
@@ -21,7 +21,7 @@ voro_cmd('voro++','-r','-o','-c','%i %q %r;%t;%P;%n;%l','0','100','0','100','0',
 Voro++ command-line utility reference: http://math.lbl.gov/voro++/doc/cmd.html <br>
 Voro++ customized output reference : http://math.lbl.gov/voro++/doc/custom.html <br>
 
-#说明
+# 说明
 pass
 
 
