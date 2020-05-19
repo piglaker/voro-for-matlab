@@ -158,7 +158,7 @@ void cmd_line_output(c_loop &vl, c_class &con, const char* format, FILE* outfile
 }
 
 int voro_main(int argc, char **argv) {
-	mexPrintf("voro++ ģ��\n");
+	mexPrintf("voro++ Ä£¿é\n");
 	//mexPrintf("%s\n", *argv);
 	//mexPrintf("%s\n", argv[1]);
 
@@ -548,22 +548,6 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 	for (int i = 0; i < nrhs;i++) {
 		p_in[i] = mxArrayToString(prhs[i]);
 	}
-
-	//mexPrintf("%d\n", argc);
-
-	//mexPrintf("%s\n", p_in);
-	
-	//mexPrintf("%c\n", *p_in);
-	
-	//mexPrintf("%c\n", *(p_in+1));
-
-	//mexPrintf("%c\n", p_in[0]);
-
-	//mexPrintf("%c\n", p_in[1]);
-
-	//mexPrintf("%c\n", *(p_in[1]));
-
-	//mexPrintf("%p\n", &p_in);
 
 	voro_main(argc, p_in);
 
